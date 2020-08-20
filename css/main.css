@@ -87,6 +87,136 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* ----------  Base Header - Footer Styles ----------------- */
+
+header,
+footer {
+
+}
+
+header {
+
+}
+
+header .content-wrapper {
+
+}
+
+header figure {
+  
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+header nav ul li {
+
+}
+
+footer .content-wrapper {
+
+}
+
+address {
+
+}
+
+.footer-content {
+
+}
+
+.contact {
+
+}
+
+
+.social {
+
+}
+
+.social-icons :
+
+.copyright {
+  
+}
+
+/* ----------  Mobile Styles ----------------- */
+
+
+/* Main Section Styles */
+
+/* Hero-area Section Styles */
+
+.hero-area {
+
+}
+
+section .content-wrapper {
+
+}
+
+.hero-img {
+
+}
+
+/* Aside Section Styles */
+
+aside {
+
+}
+
+aside .content-wrapper {
+
+}
+
+/* Form Section Styles */
+
+aside .form-description {
+
+}
+
+input {
+
+}
+
+footer {
+
+}
+
+
+/* Features Section Styles */
+
+section .features {
+
+}
+
+article {
+
+}
+
+.features-items {
+
+}
+
+.fontawesome-icon {
+
+}
+
+/* Reviews Section Styles */
+
+section .reviews {
+
+}
+
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
