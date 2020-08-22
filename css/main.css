@@ -100,7 +100,7 @@ footer {
 header .content-wrapper {
   display: flex;
   justify-content: center;
-  flex-flow: column;
+  flex-flow: row wrap;;
   border: black solid 2px;
 }
 
@@ -115,6 +115,7 @@ header figure {
 header nav {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 header nav ul {
@@ -172,6 +173,7 @@ main {
 .hero-area {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 section .content-wrapper {
@@ -187,25 +189,13 @@ section .content-wrapper {
 aside {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
-aside .content-wrapper {
-
-}
 
 /* Form Section Styles */
 
-aside .form-description {
 
-}
-
-input {
-
-}
-
-footer {
-
-}
 
 
 /* Features Section Styles */
@@ -213,19 +203,24 @@ footer {
 .features {
   display: flex;
   justify-content: center;
-}
-
-article {
-
+  flex-flow: row wrap;
 }
 
 .features .features-items {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
+
+
 
 .fontawesome-icon {
 
+}
+
+.features .features-item-description {
+  display: flex;
+  align-items: center;
 }
 
 /* Reviews Section Styles */
@@ -233,27 +228,37 @@ article {
 .reviews {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
+
+
+/* Mission Page Mobile Styles */
 
 .mission {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
+
+/* FAQ Page Mobile Styles */
 
 .faq {
   display: flex;
   justify-content: center;
+  flex-flow: row wrap;
 }
 
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
-}
+
+  flex-flow: row wrap;}
 
 
 
