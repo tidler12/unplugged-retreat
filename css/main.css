@@ -91,15 +91,17 @@ textarea {
 
 header,
 footer {
-
-}
-
-header {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 header .content-wrapper {
-
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  border: black solid 2px;
 }
 
 header figure {
@@ -111,12 +113,15 @@ header figure {
 }
 
 header nav {
-
+  display: flex;
+  justify-content: center;
 }
 
-header nav ul li {
-
-}
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  
+} 
 
 footer .content-wrapper {
 
@@ -135,11 +140,15 @@ address {
 }
 
 
-.social {
+footer .social {
 
 }
 
-.social-icons :
+footer .social-icons {
+  display: flex;
+  justify-content: space-between;
+
+}
 
 .copyright {
   
@@ -150,10 +159,19 @@ address {
 
 /* Main Section Styles */
 
+main {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+
+}
+
+
 /* Hero-area Section Styles */
 
 .hero-area {
-
+  display: flex;
+  justify-content: center;
 }
 
 section .content-wrapper {
@@ -167,7 +185,8 @@ section .content-wrapper {
 /* Aside Section Styles */
 
 aside {
-
+  display: flex;
+  justify-content: center;
 }
 
 aside .content-wrapper {
@@ -191,16 +210,18 @@ footer {
 
 /* Features Section Styles */
 
-section .features {
-
+.features {
+  display: flex;
+  justify-content: center;
 }
 
 article {
 
 }
 
-.features-items {
-
+.features .features-items {
+  display: flex;
+  justify-content: center;
 }
 
 .fontawesome-icon {
@@ -209,8 +230,29 @@ article {
 
 /* Reviews Section Styles */
 
-section .reviews {
+.reviews {
+  display: flex;
+  justify-content: center;
+}
 
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 
