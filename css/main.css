@@ -100,8 +100,8 @@ footer {
 header .content-wrapper {
   display: flex;
   justify-content: center;
-  flex-flow: row wrap;;
-  border: black solid 2px;
+  flex-flow: row wrap;
+
 }
 
 header figure {
@@ -114,13 +114,13 @@ header figure {
 
 header nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-flow: row wrap;
 }
 
 header nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   
 } 
 
@@ -142,12 +142,13 @@ address {
 
 
 footer .social {
-
+  display: flex;
+  justify-content: center;
 }
 
 footer .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 
 }
 
@@ -257,8 +258,8 @@ aside {
 .faq .content-wrapper {
   display: flex;
   justify-content: center;
-
-  flex-flow: row wrap;}
+  flex-flow: row wrap;
+}
 
 
 
