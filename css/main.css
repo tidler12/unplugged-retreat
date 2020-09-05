@@ -116,16 +116,18 @@ header nav {
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
-  
+  width: 20%;
 } 
 
 footer .content-wrapper {
-
+  width: 55%;
+  margin: 50px 0;
 }
 
 address {
@@ -166,6 +168,10 @@ main {
   justify-content: center;
   flex-flow: column;
 
+}
+
+.content-wrapper {
+  width: 80%;
 }
 
 
