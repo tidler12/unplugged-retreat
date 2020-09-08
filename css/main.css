@@ -490,6 +490,19 @@ aside {
     align-items: center;
   }
 
+  /* Tablet About Page */
+  .faq .content-wrapper {
+    justify-content: space-between;
+  }
+
+  .faq-content {
+    flex-basis: 40%;
+  }
+
+  .faq h2 {
+    width: 100%;
+  }
+
 /* DESKTOP BREAKPOINT */
 
 @media only screen and (min-width:1200px) {
