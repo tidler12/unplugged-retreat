@@ -513,38 +513,38 @@ aside {
 
   /* Hero area */
   .hero-area h1 {
-    width:
+    width:70%;
   }
 
   /* Aside */
   aside .content-wrapper {
-    justify-content: 
+    justify-content: space-around;
   }
 
   aside .content-wrapper .form-description, 
   aside .content-wrapper .form {
-    width:
+    width:33%;
   }
 
   /* Features */
   .features h2 {
-    width: ;
+    width: 90%;
   }
 
   .features article {
-    flex-basis:
+    flex-basis: 20%;
   }
 
   /* Reviews */
   .reviews article div {
-    width: 
+    width: 45%;
   }
 
   /* About Page Desktop */
 
   .mission h2, 
   .contact-section .content-wrapper h2 {
-    width: ;
+    width: 90%;
   }
 
   /* FAQ Page Desktop */
