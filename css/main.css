@@ -507,10 +507,53 @@ aside {
 
 @media only screen and (min-width:1200px) {
   .content-wrapper {
-    max-width : 1200px;
+    max-width : 960px;
     margin: 100px 0;
   }
+
+  /* Hero area */
+  .hero-area h1 {
+    width:
+  }
+
+  /* Aside */
+  aside .content-wrapper {
+    justify-content: 
+  }
+
+  aside .content-wrapper .form-description, 
+  aside .content-wrapper .form {
+    width:
+  }
+
+  /* Features */
+  .features h2 {
+    width: ;
+  }
+
+  .features article {
+    flex-basis:
+  }
+
+  /* Reviews */
+  .reviews article div {
+    width: 
+  }
+
+  /* About Page Desktop */
+
+  .mission h2, 
+  .contact-section .content-wrapper h2 {
+    width: ;
+  }
+
+  /* FAQ Page Desktop */
+
+  .faq h2 {
+    width: 100%;
+  }
 }
+
 
 /* ==========================================================================
    Print styles.
