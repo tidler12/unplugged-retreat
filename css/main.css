@@ -376,13 +376,103 @@ aside {
 /* TABLET BREAKPOINT */
 
 @media only screen and (min-width:768px) {
+  /*  General styles */
+  .content-wrapper {
+    max-width : 640px;
+    margin: 100px 0;
+  }
 
-}
+    /*  Header styles */
+  header {
+    display: flex;
+    justify-content: center;
+  }
+
+  header .content-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  header nav {
+    width: 20%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header-divider {
+    display: none;
+  }
+
+  /* Hero Area */
+
+  /* Aside */
+  aside .content-wrapper {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+
+  aside .content-wrapper .form-description, aside .content-wrapper .form {
+    width: 50%;
+    margin:0;
+  }
+
+  /* Features */
+  .features article {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+  }
+
+  .features .features-item-description {
+    width: 50%;
+  }
+
+  /* Reviews */
+  .reviews article {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .reviews article div {
+    width: 50%;
+  }
+
+
+  /* Footer */
+  footer .content-wrapper {
+    width: 80;
+    margin: 100px 0;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer .contact {
+    margin-bottom: 0;
+  }
+
+  footer .copyright {
+    width: 30%;
+  }
+
+
 
 /* DESKTOP BREAKPOINT */
 
 @media only screen and (min-width:1200px) {
-  
+  .content-wrapper {
+    max-width : 1200px;
+    margin: 100px 0;
+  }
 }
 
 /* ==========================================================================
