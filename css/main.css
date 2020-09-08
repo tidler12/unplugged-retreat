@@ -427,6 +427,7 @@ aside {
     display: flex;
     justify-content: space-around;
     flex-flow: column wrap;
+    flex-basis: 200px;
   }
 
   .features .features-item-description {
@@ -464,7 +465,30 @@ aside {
     width: 30%;
   }
 
+  .faq-content {
+    flex-basis: ;
+  }
 
+/* Tablet About Page */
+  .mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mission-content p {
+    width: 50%;
+  }
+
+  .contact-section .content-wrapper h2 {
+    width:80%;
+  }
+
+  .contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
 /* DESKTOP BREAKPOINT */
 
