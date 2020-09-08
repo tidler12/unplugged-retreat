@@ -283,7 +283,6 @@ aside {
   margin-bottom: 50px;
 }
 
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -372,15 +371,18 @@ aside {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+
+
+/* TABLET BREAKPOINT */
+
+@media only screen and (min-width:768px) {
+
 }
 
-@media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
-  /* Style adjustments for high resolution devices */
+/* DESKTOP BREAKPOINT */
+
+@media only screen and (min-width:1200px) {
+  
 }
 
 /* ==========================================================================
